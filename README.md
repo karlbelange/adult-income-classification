@@ -1,2 +1,4 @@
 # adult-income-classification
-Preprocessed the UCI Adult Income dataset to handle missing values, categorical data, and class imbalance. Used K-Fold and Stratified K-Fold cross-validation for classification, applying ML models like logistic regression and decision trees to predict income levels.
+In this project, I worked with the Adult Income Dataset from the UCI Machine Learning Repository to predict whether a person earns more or less than $50K per year. The dataset came with real-world challenges like missing values, unscaled numerical data, categorical variables, outliers, and class imbalance. I cleaned and preprocessed the data, handled those issues, and encoded categorical features for machine learning.
+
+To evaluate the models, I used both K-Fold and Stratified K-Fold cross-validation techniques. I experimented with various classification algorithms and tested how different preprocessing steps—like clustering (k-means or DBSCAN)—impacted model performance. This was a great hands-on exercise in building classification pipelines while dealing with practical data issues.
